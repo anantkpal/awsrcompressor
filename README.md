@@ -32,7 +32,7 @@ JavaScript Options
 
 ## Authors
 
-[Anant Pal](https://www.github.com/anantkpal)
+[Anant Pal](http://anantkpal.github.io)
 
 #Copyright And License
 Copyright (c) 2013,2014 Anant Pal(anantkpal@yahoo.co.in) All rights reserved. 
