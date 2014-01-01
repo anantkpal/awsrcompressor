@@ -3,7 +3,7 @@
 
 ##Overview
 *awsrcompressor* can compress HTML,js,css files.It is built using [YUICompressor](http://yui.github.io/yuicompressor/) as core for 
-compressing js and css files, and custom code to trim spaces between tags, removing commented code in HTML as well Javascript and CSS content
+compressing js and css files, and custom code to trim spaces between tags, removing commented code in HTML as well as minifying Javascript and CSS content
 present in the html file itself. It can compress the files recurssively if the input folder and target folder path is given.
 
 
