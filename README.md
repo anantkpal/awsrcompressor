@@ -34,3 +34,7 @@ JavaScript Options
 
 [Anant Pal](https://www.github.com/anantkpal)
 
+#Copyright And License
+Copyright (c) 2013 Anant Pal(anantkpal@yahoo.co.in) All rights reserved. 
+The copyrights embodied in the content of this file are licensed by Anant Pal(anantkpal@yahoo.co.in) under the BSD open source license.
+
