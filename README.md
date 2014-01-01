@@ -1,5 +1,4 @@
-#awsrcompressor
-###*A Website Static Resource Compressor*
+#awsrcompressor ###(*A Website Static Resource Compressor*)
 
 ##Overview
 *awsrcompressor* can compress HTML,js,css files.It is built using [YUICompressor](http://yui.github.io/yuicompressor/) as core for 
