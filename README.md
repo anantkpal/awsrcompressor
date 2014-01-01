@@ -1,4 +1,5 @@
-awsrcompressor -*A Website Static Resource Compressor*
+	awsrcompressor
+*A Website Static Resource Compressor*
 ====================================
 
 
