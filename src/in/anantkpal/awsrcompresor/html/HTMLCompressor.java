@@ -42,41 +42,6 @@ public class HTMLCompressor {
 		int startIndex = 0;
         int endIndex = 0;
         
-        
-        
-        
-        
-      //Replace all spaces and new line characters with a tagName
-      /*  startIndex=0;
-        endIndex=0;
-        String token="";
-        while ((startIndex = htmlSrc.indexOf("<", startIndex)) >= 0) {
-            endIndex = htmlSrc.indexOf(">", startIndex + 1);
-            token=htmlSrc.substring(startIndex+1, endIndex).trim();
-          //TODO replace with regex  
-            if(token.contains("=")){
-            	System.out.println(token);
-            	String[] tkns = token.split("=");
-            	int i=0;
-            	while(i<tkns.length-1 && tkns.length>0){
-            		System.out.println(i);
-            		tkns[i]=tkns[i].substring(0,tkns[i].lastIndexOf("\" ")+1).trim()+" "+tkns[i].substring(tkns[i].lastIndexOf("\" ")+2);
-            		i++;
-            	}
-            	tkns[i]=tkns[i].trim();
-            	token="";
-            	for (String tkn: tkns) {
-					token+=tkn+"=";
-				}
-            	token=token.substring(0, token.length()-1);
-            	htmlSrc.replace(startIndex+1, endIndex, token);
-            }else{
-            	htmlSrc.replace(startIndex+1, endIndex, token.replaceAll("\\s+", " "));
-            }
-            startIndex=startIndex+1;
-        }*/
-        
-        
       //Replace all spaces and new line characters between tags
         startIndex=0;
         endIndex=0;
