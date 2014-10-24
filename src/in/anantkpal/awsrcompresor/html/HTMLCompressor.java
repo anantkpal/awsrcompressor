@@ -82,7 +82,6 @@ public class HTMLCompressor {
         	startIndex=endIndex;
         	endIndex = htmlSrc.indexOf("</script>", startIndex);
         	token=htmlSrc.substring(startIndex+1, endIndex);
-        	System.out.println(token);
         	JavaScriptCompressor compressor = new JavaScriptCompressor(new StringReader(token), new ErrorReporter() {
 
                 public void warning(String message, String sourceName,int line, String lineSource, int lineOffset) {
